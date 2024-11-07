@@ -1,4 +1,3 @@
-/* Centering the container and adding top margin */
 .container {
     display: flex;
     flex-direction: column;
@@ -6,16 +5,14 @@
     margin-top: 50px;
 }
 
-/* Styling the color box */
 #color-box {
     width: 500px;
     height: 300px;
-    background-color: lightblue; /* Default color */
+    background-color: lightblue;
     margin-bottom: 60px;
     border-radius: 5rem;
 }
 
-/* Styling the button */
 #change-color-btn {
     padding: 15px 40px;
     font-size: 16px;

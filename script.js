@@ -1,9 +1,9 @@
 // Wait for the DOM to load before running the script
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function()  {
     const colorBox = document.getElementById("color-box");
     const changeColorBtn = document.getElementById("change-color-btn");
 
-    // Function to generate a random hex color
+    // generate a random color
     function getRandomColor() {
         const letters = "0123456789ABCDEF";
         let color = "#";
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Add click event listener to the button
-    changeColorBtn.addEventListener("click", () => {
+    changeColorBtn.addEventListener("click", function()  {
         colorBox.style.backgroundColor = getRandomColor();
     });
 });
